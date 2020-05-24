@@ -48,7 +48,7 @@ Click Save. viola, We have the option for the dockerised executor can be configu
 
 ## Configuring the Time off Applications for Build. 
 
-
+to configure the new application pipeline, click new item 
 
 
     

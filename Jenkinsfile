@@ -12,8 +12,6 @@ node('nodejsapp'){
             }
 	}
 	stage('run-docker'){
-	    sh 'docker stop timeoffapp'
-	    sh 'docker rm timeoffapp'
 		sh 'docker run -d -p 8080:8080 --env PORT=8080 --name timeoffapp nodejs/app:latest'
 		echo "App is running"
 	}
