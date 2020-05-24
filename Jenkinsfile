@@ -20,7 +20,7 @@ node('nodejsapp'){
 	}
 	stage('run-docker'){
 
-		sh "docker run -d -p 8080:8080 --env PORT=8080 nodejs/app:latest"
-		echo 'App is running'
+		sh 'docker run -d -p 8080:8080 --env PORT=8080 nodejs/app:latest'
+		echo "App is running ${PORT}"
 	}
 }
