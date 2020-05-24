@@ -54,7 +54,7 @@ Click Save. viola, We have the option for the dockerised executor nodes can be c
 *   Point the branch to master and select the script path to Jenkinsfile as per the repo location and click save. 
 
 
-Application is ready and running in the port 8080 can be browsed with Http://localhost:8080
+Application is ready and running in the port 8080 can be browsed with http://localhost:8080
 
 
 P.S. I changed the port to 9001 for Jenkins as the my host is same and would be facing the port binding issues for 8080 
