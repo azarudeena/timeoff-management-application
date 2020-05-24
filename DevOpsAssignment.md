@@ -43,15 +43,15 @@ which would provided the running containers details as json.
  Depends on how the docker options for the Jenkins master. )
 *   Please make sure the options Enabled check box is selected.
 
-Click Save. viola, We have the option for the dockerised executor can be configured with Jenkinsfile wih the above mentioned label. 
+Click Save. viola, We have the option for the dockerised executor nodes can be configured with Jenkinsfile wih the above mentioned label. 
 
 
 ## Configuring the Time off Applications for Build. 
 
-to configure the new application pipeline, click new item 
-
-
-    
+*   To configure the new application pipeline, click new item -> Enter Name -> Select PipeLine and click ok 
+*   Scroll down, go to the bottom and select the Pipeline definition to Pipeline script from SCM. 
+*   Select SCM as git, Provide the repo URL as https://github.com/azarudeena/timeoff-management-application (As this is a public repo no creds needed.)
+*   Point the branch to master and select the script path to Jenkinsfile as per the repo location and click save. 
 
 
 
